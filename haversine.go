@@ -11,8 +11,8 @@ const (
 
 // Coord represents a geographic coordinate.
 type Coord struct {
-	Lat float64
-	Lon float64
+	Lat float64 `json:"lat"`
+	Lon float64 `json:"lon"`
 }
 
 // degreesToRadians converts from degrees to radians.
